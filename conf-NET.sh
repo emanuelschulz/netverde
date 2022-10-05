@@ -25226,7 +25226,7 @@ dpkg -i ca-filtrowebseed.deb
 
 
 #---------------Habilitar arquivo para descanso de tela na tela de login---------------#
-/etc/init.d/lightdm restart
+#/etc/init.d/lightdm restart
 
 #reboot
 
