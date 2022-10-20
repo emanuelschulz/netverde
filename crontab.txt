@@ -1,1 +1,5 @@
 30 01 * * * systemctl poweroff
+8 23 * * * /usr/local/bin/ativarupdateapos23h.sh
+2,12,15,55 6 * * * /usr/local/bin/pararupdatesas6am.sh
+*/17 * * * * /usr/local/bin/reiniciar-updates-se-necessario.sh >> /tmp/.java-check-restarts.log 2>&1
+27 12,17 * * * /usr/local/bin/reiniciar-updates-se-necessario.sh --force >> /tmp/.java-check-restarts.log 2>&1
